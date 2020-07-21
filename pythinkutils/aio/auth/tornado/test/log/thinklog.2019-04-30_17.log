@@ -1,0 +1,24 @@
+[2019-04-30 17:08:13,644] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-04-30 17:08:13,989] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 17:08:13,991] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 17:08:14,007] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4719
+[2019-04-30 17:08:14,009] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 17:08:14,021] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 17:08:14,033] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4718
+[2019-04-30 17:08:14,059] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 17:08:14,095] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4716
+[2019-04-30 17:08:14,095] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4717
+[2019-04-30 17:08:14,126] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 17:08:14,126] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 17:08:14,145] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 17:20:04,609] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET / (127.0.0.1) 698068.62ms
+[2019-04-30 17:20:23,808] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/handler/BaseSimpleAuthHandler.py on_goto_login_page():26  INFO 	Goto login page
+[2019-04-30 17:20:23,813] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	302 GET / (127.0.0.1) 15839.13ms
+[2019-04-30 17:20:26,348] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET /login (127.0.0.1) 2517.48ms
+[2019-04-30 17:21:40,485] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET / (127.0.0.1) 68482.15ms
+[2019-04-30 17:21:40,653] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET / (127.0.0.1) 64622.62ms
+[2019-04-30 17:26:39,472] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	302 GET /login?username=root&password=Ab123145 (127.0.0.1) 19454.99ms
+[2019-04-30 17:26:39,532] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET / (127.0.0.1) 31.27ms
+[2019-04-30 17:28:13,106] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 POST /api1.json (127.0.0.1) 5.71ms
+[2019-04-30 17:29:03,925] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 POST /api1.json (127.0.0.1) 30.18ms
+[2019-04-30 17:29:06,333] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 POST /api1.json (127.0.0.1) 29.10ms

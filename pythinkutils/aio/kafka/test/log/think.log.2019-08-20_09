@@ -1,0 +1,12 @@
+[2019-08-20 09:39:28,195] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO 
+[2019-08-20 09:39:28,207] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO [A[A
+[2019-08-20 09:39:28,239] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO 
+[2019-08-20 09:39:28,239] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO 
+[2019-08-20 09:39:33,880] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO fxxk
+[2019-08-20 09:39:39,496] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO fxxxxxxk
+[2019-08-20 09:44:25,486] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO haha
+[2019-08-20 09:44:31,314] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO akdjfhadfhie
+[2019-08-20 09:45:31,176] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO lkjhgf
+[2019-08-20 09:45:41,005] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO adfafadf
+[2019-08-20 09:52:07,820] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():21  INFO 123213
+[2019-08-20 09:52:12,960] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():21  INFO hahsdfad

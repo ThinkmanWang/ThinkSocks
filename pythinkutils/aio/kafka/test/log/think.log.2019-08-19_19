@@ -1,0 +1,4 @@
+[2019-08-19 19:04:02,789] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO adsfaf
+[2019-08-19 19:04:08,531] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO 123456
+[2019-08-19 19:04:33,810] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO 09234134
+[2019-08-19 19:04:37,060] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_task():21  INFO adfajdsfa

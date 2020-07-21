@@ -1,0 +1,183 @@
+[2019-05-06 16:25:22,592] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:25:22,724] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:25:22,730] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():124  INFO 	HTTP Server started... 50145
+[2019-05-06 16:25:22,734] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():115  INFO 	Server Started
+[2019-05-06 16:25:22,735] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:25:22,740] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():124  INFO 	HTTP Server started... 50146
+[2019-05-06 16:25:22,744] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():115  INFO 	Server Started
+[2019-05-06 16:25:22,749] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:25:22,754] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():124  INFO 	HTTP Server started... 50147
+[2019-05-06 16:25:22,769] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():115  INFO 	Server Started
+[2019-05-06 16:25:22,782] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:25:22,788] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():124  INFO 	HTTP Server started... 50148
+[2019-05-06 16:25:22,796] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():115  INFO 	Server Started
+[2019-05-06 16:26:18,332] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:26:18,460] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:26:18,467] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50168
+[2019-05-06 16:26:18,471] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:26:18,473] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:26:18,479] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50169
+[2019-05-06 16:26:18,483] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:26:18,486] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:26:18,491] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50170
+[2019-05-06 16:26:18,495] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:26:18,534] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:26:18,540] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50171
+[2019-05-06 16:26:18,548] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:26:37,379] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET / (127.0.0.1) 334.16ms
+[2019-05-06 16:27:23,584] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_exception():1788  ERROR 	Uncaught exception GET /login (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8590', method='GET', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/handler/ThinkLoginHandler.py", line 315, in get
+    await self.post()
+  File "/Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/handler/ThinkLoginHandler.py", line 303, in post
+    self.write(g_szLoginPage.format(szRedirectUrl))
+KeyError: '\n\t\t\t\t    margin'
+[2019-05-06 16:27:23,610] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  ERROR 	500 GET /login (127.0.0.1) 37084.50ms
+[2019-05-06 16:28:26,941] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:28:27,068] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:28:27,074] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50219
+[2019-05-06 16:28:27,073] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:28:27,079] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50220
+[2019-05-06 16:28:27,080] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:28:27,083] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:28:27,084] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:28:27,088] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50221
+[2019-05-06 16:28:27,092] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:28:27,105] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:28:27,108] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50222
+[2019-05-06 16:28:27,111] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:28:34,435] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 3761.99ms
+[2019-05-06 16:29:10,179] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET /login (127.0.0.1) 28014.95ms
+[2019-05-06 16:29:37,262] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 POST /login (127.0.0.1) 10035.52ms
+[2019-05-06 16:30:02,206] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:30:02,333] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:30:02,339] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50255
+[2019-05-06 16:30:02,344] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:30:02,344] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:30:02,352] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50256
+[2019-05-06 16:30:02,358] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:30:02,360] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:30:02,369] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50257
+[2019-05-06 16:30:02,392] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:30:02,394] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:30:02,404] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50258
+[2019-05-06 16:30:02,410] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:30:13,205] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 2321.36ms
+[2019-05-06 16:30:43,865] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():161  WARNING 	child 2 (pid 50257) killed by signal 11, restarting
+[2019-05-06 16:30:43,981] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():161  WARNING 	child 3 (pid 50258) killed by signal 11, restarting
+[2019-05-06 16:30:44,017] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:30:44,066] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50259
+[2019-05-06 16:30:44,079] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:30:44,137] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:30:44,150] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50261
+[2019-05-06 16:30:44,157] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:31:14,887] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	302 POST /login (127.0.0.1) 17797.16ms
+[2019-05-06 16:31:16,562] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 1639.76ms
+[2019-05-06 16:31:59,982] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	302 POST /login (127.0.0.1) 14519.75ms
+[2019-05-06 16:32:00,039] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET / (127.0.0.1) 37.52ms
+[2019-05-06 16:33:50,514] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:33:50,524] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:33:50,525] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:33:50,526] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:33:50,527] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50429
+[2019-05-06 16:33:50,528] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50430
+[2019-05-06 16:33:50,529] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:33:50,529] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:33:50,529] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50431
+[2019-05-06 16:33:50,531] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:33:50,534] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:33:50,537] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50432
+[2019-05-06 16:33:50,538] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:33:55,174] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 2.18ms
+[2019-05-06 16:38:29,705] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:38:29,719] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:38:29,722] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:38:29,722] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:38:29,724] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50490
+[2019-05-06 16:38:29,723] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:38:29,725] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:38:29,725] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50491
+[2019-05-06 16:38:29,727] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50492
+[2019-05-06 16:38:29,727] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50493
+[2019-05-06 16:38:29,727] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:38:29,728] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:38:29,728] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:38:33,121] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET / (127.0.0.1) 57.69ms
+[2019-05-06 16:38:37,940] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 1.06ms
+[2019-05-06 16:40:27,208] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:40:27,213] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:27,214] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:27,214] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:27,224] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50527
+[2019-05-06 16:40:27,224] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50528
+[2019-05-06 16:40:27,224] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50529
+[2019-05-06 16:40:27,226] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:27,225] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:27,226] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:27,226] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:27,228] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50530
+[2019-05-06 16:40:27,229] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:32,242] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 1.74ms
+[2019-05-06 16:40:43,052] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:40:43,056] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:43,056] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:43,057] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:43,059] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50537
+[2019-05-06 16:40:43,059] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50538
+[2019-05-06 16:40:43,059] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50539
+[2019-05-06 16:40:43,060] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:43,061] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:43,061] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:43,066] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:40:43,069] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50540
+[2019-05-06 16:40:43,070] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:40:46,144] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 5.05ms
+[2019-05-06 16:40:47,957] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET /login (127.0.0.1) 0.74ms
+[2019-05-06 16:40:49,167] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET /login (127.0.0.1) 0.40ms
+[2019-05-06 16:40:50,878] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET /login (127.0.0.1) 0.39ms
+[2019-05-06 16:42:21,331] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:42:21,337] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:42:21,338] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:42:21,339] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:42:21,341] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50592
+[2019-05-06 16:42:21,342] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50591
+[2019-05-06 16:42:21,343] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50593
+[2019-05-06 16:42:21,343] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:42:21,343] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:42:21,343] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:42:21,345] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:42:21,346] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50594
+[2019-05-06 16:42:21,348] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:42:24,192] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 2.25ms
+[2019-05-06 16:43:42,550] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:43:42,557] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:43:42,558] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:43:42,559] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:43:42,560] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:43:42,562] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50610
+[2019-05-06 16:43:42,563] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50613
+[2019-05-06 16:43:42,563] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50611
+[2019-05-06 16:43:42,564] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50612
+[2019-05-06 16:43:42,565] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:43:42,565] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:43:42,566] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:43:42,566] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:43:46,219] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 2.23ms
+[2019-05-06 16:44:19,207] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-05-06 16:44:19,213] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:44:19,215] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:44:19,217] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50631
+[2019-05-06 16:44:19,219] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50632
+[2019-05-06 16:44:19,218] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:44:19,217] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:44:19,220] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:44:19,217] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-05-06 16:44:19,222] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50633
+[2019-05-06 16:44:19,223] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:44:19,223] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():96  INFO 	HTTP Server started... 50634
+[2019-05-06 16:44:19,225] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():87  INFO 	Server Started
+[2019-05-06 16:44:21,852] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 1.96ms
+[2019-05-06 16:45:26,707] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	304 GET /login (127.0.0.1) 0.70ms

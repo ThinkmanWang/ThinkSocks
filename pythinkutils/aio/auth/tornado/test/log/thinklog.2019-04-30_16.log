@@ -1,0 +1,54 @@
+[2019-04-30 16:51:04,411] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-04-30 16:51:04,543] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:51:04,547] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:51:04,550] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4470
+[2019-04-30 16:51:04,554] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4471
+[2019-04-30 16:51:04,557] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:51:04,558] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:51:04,560] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:51:04,565] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4472
+[2019-04-30 16:51:04,569] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:51:04,570] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:51:04,572] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4473
+[2019-04-30 16:51:04,575] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:51:49,077] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/handler/BaseSimpleAuthHandler.py on_goto_login_page():26  INFO 	Goto login page
+[2019-04-30 16:51:49,081] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	302 GET / (127.0.0.1) 9408.84ms
+[2019-04-30 16:52:05,648] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 16559.88ms
+[2019-04-30 16:52:08,980] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  WARNING 	404 GET /favicon.ico (127.0.0.1) 6.75ms
+[2019-04-30 16:52:42,821] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	302 POST /login (127.0.0.1) 25909.67ms
+[2019-04-30 16:52:44,282] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 1452.09ms
+[2019-04-30 16:53:19,713] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	302 POST /login (127.0.0.1) 9922.69ms
+[2019-04-30 16:57:25,722] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/process.py fork_processes():126  INFO 	Starting 4 processes
+[2019-04-30 16:57:25,857] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:57:25,866] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4574
+[2019-04-30 16:57:25,869] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:57:25,874] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:57:25,883] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4575
+[2019-04-30 16:57:25,912] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:57:25,908] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:57:25,930] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-04-30 16:57:25,945] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4576
+[2019-04-30 16:57:25,971] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py <module>():121  INFO 	HTTP Server started... 4577
+[2019-04-30 16:57:25,996] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:57:26,004] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py on_server_started():112  INFO 	Server Started
+[2019-04-30 16:57:38,672] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_exception():1788  ERROR 	Uncaught exception GET / (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8590', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/handler/BaseSimpleAuthHandler.py", line 113, in inner
+    bTokenValid = await SimpleUserService.check_token(int(self.get_secure_cookie("uid", "-1")), self.get_secure_cookie("token", ""))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[2019-04-30 16:57:38,684] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  ERROR 	500 GET / (127.0.0.1) 3311.43ms
+[2019-04-30 16:57:47,330] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  INFO 	200 GET /login (127.0.0.1) 2646.05ms
+[2019-04-30 16:58:04,884] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_exception():1788  ERROR 	Uncaught exception POST /login (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8590', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "/Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/test/main.py", line 43, in post
+    nUID, _szUsername, szToken = await self.login(szUsername, szPwd)
+  File "/Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/auth/tornado/handler/BaseSimpleAuthHandler.py", line 40, in login
+    self.set_secure_cookie("uid", "{}".format(nUID), value=str, expires_days=nExpireDays)
+TypeError: set_secure_cookie() got multiple values for argument 'value'
+[2019-04-30 16:58:04,889] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/tornado/web.py log_request():2246  ERROR 	500 POST /login (127.0.0.1) 11069.92ms

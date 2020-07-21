@@ -1,0 +1,35 @@
+[2019-08-20 13:33:39,831] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:33:39
+[2019-08-20 13:33:44,850] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:33:44
+[2019-08-20 13:33:49,853] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:33:49
+[2019-08-20 13:33:54,864] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:33:54
+[2019-08-20 13:33:59,871] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:33:59
+[2019-08-20 13:34:04,882] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:04
+[2019-08-20 13:34:09,887] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:09
+[2019-08-20 13:34:14,905] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:14
+[2019-08-20 13:34:19,912] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:19
+[2019-08-20 13:34:24,923] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:24
+[2019-08-20 13:34:29,942] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:29
+[2019-08-20 13:34:34,951] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:34
+[2019-08-20 13:34:39,969] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:39
+[2019-08-20 13:34:44,976] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:44
+[2019-08-20 13:34:49,982] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:49
+[2019-08-20 13:34:54,992] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:54
+[2019-08-20 13:35:00,004] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:34:59
+[2019-08-20 13:35:05,010] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:35:05
+[2019-08-20 13:35:10,018] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:35:10
+[2019-08-20 13:40:53,184] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:35:10
+[2019-08-20 13:40:58,175] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:40:58
+[2019-08-20 13:41:03,182] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:41:03
+[2019-08-20 13:41:08,198] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:41:08
+[2019-08-20 13:41:13,203] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:41:13
+[2019-08-20 13:41:18,219] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:41:18
+[2019-08-20 13:41:23,227] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:41:23
+[2019-08-20 13:50:15,936] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:41:23
+[2019-08-20 13:50:20,934] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py send_test():30  INFO 19
+[2019-08-20 13:50:20,937] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:50:20
+[2019-08-20 13:50:25,944] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py send_test():30  INFO 19
+[2019-08-20 13:50:25,947] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:50:25
+[2019-08-20 13:50:30,956] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py send_test():30  INFO 19
+[2019-08-20 13:50:30,959] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:50:30
+[2019-08-20 13:50:35,969] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:50:35
+[2019-08-20 13:50:35,969] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py send_test():30  INFO 19

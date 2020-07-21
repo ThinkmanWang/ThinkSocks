@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+redis = "*"
+pymysql = "*"
+dbutils = "*"
+rainbow = "*"
+rainbow-logging-handler = "*"
+coloredlogs = "*"
+logutils = "*"
+aiomysql = "*"
+aiorwlock = "*"
+aioredis = "*"
+tornado = "*"
+aiofiles = "==0.4.0"
+aiologger = "==0.4.0rc1"
+selenium = "*"
+aiokafka = "*"
+requests = "*"
+socks = "*"
+pysocks = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

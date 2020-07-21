@@ -1,0 +1,2 @@
+[2019-07-03 16:05:01,740] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
+[2019-07-03 16:05:03,762] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
