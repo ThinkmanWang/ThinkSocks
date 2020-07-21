@@ -1,5 +1,0 @@
-[2019-08-20 11:51:21,688] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():23  INFO hahsdfad
-[2019-08-20 11:56:35,516] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():23  INFO Message from Thinkman
-[2019-08-20 11:58:32,901] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():23  INFO Message from Thinkman
-[2019-08-20 11:59:14,943] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():23  INFO Message1 from Thinkman
-[2019-08-20 11:59:14,957] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():23  INFO Message2 from Thinkman

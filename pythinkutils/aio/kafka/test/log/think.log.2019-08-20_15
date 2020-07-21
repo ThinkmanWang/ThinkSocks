@@ -1,5 +1,0 @@
-[2019-08-20 15:43:13,002] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 13:50:35
-[2019-08-20 15:43:14,814] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 15:43:14
-[2019-08-20 15:43:14,829] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py send_test():30  INFO 19
-[2019-08-20 15:43:19,860] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py on_msg():24  INFO 2019-08-20 15:43:19
-[2019-08-20 15:43:19,865] MainThread - /Users/wangxiaofeng/Github-Thinkman/pythinkutils/pythinkutils/aio/kafka/test/kafka_receive_test.py send_test():30  INFO 19

@@ -1,3 +1,0 @@
-[2019-07-01 19:02:08,277] MainThread - /Users/wangxiaofeng/.pyenv/versions/3.7.0/lib/python3.7/asyncio/selector_events.py __init__():64  DEBUG 	Using selector: KqueueSelector
-[2019-07-01 19:02:08,282] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/aioredis/connection.py create_connection():105  DEBUG 	Creating tcp connection to ('cpa1.thinkman-wang.com', 6379)
-[2019-07-01 19:02:08,490] MainThread - /Users/wangxiaofeng/.virtualenvs/pythinkutils-BO3BaA4x/lib/python3.7/site-packages/aioredis/connection.py create_connection():105  DEBUG 	Creating tcp connection to ('cpa1.thinkman-wang.com', 6379)
