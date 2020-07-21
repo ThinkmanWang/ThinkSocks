@@ -10,6 +10,7 @@ import base64
 import tornado.ioloop
 
 from tornado.tcpserver import TCPServer
+from tornado.tcpclient import TCPClient
 from tornado.iostream import StreamClosedError
 from tornado import gen
 
@@ -52,6 +53,7 @@ class TCPConnection(object):
 
     def __init__(self, stream, address):
         self.__stream = stream
+        self.__upstream = None
         self.__address = address
 
         self.m_byteVer = b"\x05"
@@ -211,8 +213,36 @@ class TCPConnection(object):
         await self.__stream.write(byteReply)
         await self.do_command()
 
+    async def request(self):
+        try:
+            while self.__stream is not None \
+                    and self.__stream.closed() is False \
+                    and self.__upstream is not None \
+                    and self.__upstream.closed() is False:
+                byteData = await self.__stream.read_bytes(8192, True)
+                await self.__upstream.write(byteData)
+
+        except Exception as ex:
+            await g_aio_logger.error(ex)
+
+    async def response(self):
+        try:
+            while self.__stream is not None \
+                    and self.__stream.closed() is False \
+                    and self.__upstream is not None \
+                    and self.__upstream.closed() is False:
+
+                byteData = await self.__upstream.read_bytes(8192, True)
+                await self.__stream.write(byteData)
+
+        except Exception as ex:
+            await g_aio_logger.error(ex)
+
     async def do_command(self):
-        pass
+        self.__upstream = await TCPClient().connect(self.m_szAddress, self.m_nPort)
+
+        asyncio.ensure_future(self.request())
+        asyncio.ensure_future(self.response())
 
     def _convert_readable_address(self, addr):
         # return ""
