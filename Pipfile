@@ -20,7 +20,6 @@ aiologger = "==0.4.0rc1"
 selenium = "*"
 aiokafka = "*"
 requests = "*"
-socks = "*"
 pysocks = "*"
 
 [dev-packages]
