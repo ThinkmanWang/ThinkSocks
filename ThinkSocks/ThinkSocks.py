@@ -73,6 +73,7 @@ class TCPConnection(object):
         self.m_szUsername = ""
         self.m_szPassword = ""
         self.m_szAddress = None
+        self.m_nPort = 0
 
         asyncio.gather(self.on_start())
         self.__stream.set_close_callback(self.on_close)
