@@ -242,7 +242,6 @@ class TCPConnection(object):
                     and self.__stream.closed() is False \
                     and self.__upstream is not None \
                     and self.__upstream.closed() is False:
-
                 byteData = await self.__upstream.read_bytes(TCPConnection.BUFFER_SIZE, True)
                 await self.__stream.write(byteData)
 
