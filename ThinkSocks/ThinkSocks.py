@@ -240,6 +240,8 @@ class TCPConnection(object):
                     and self.__upstream is not None \
                     and self.__upstream.closed() is False:
                 byteData = await self.__stream.read_bytes(TCPConnection.BUFFER_SIZE, True)
+                szContent = base64.b64encode(byteData)
+                await g_aio_logger.info(szContent)
                 await self.__upstream.write(byteData)
 
         except Exception as ex:
@@ -253,6 +255,8 @@ class TCPConnection(object):
                     and self.__upstream is not None \
                     and self.__upstream.closed() is False:
                 byteData = await self.__upstream.read_bytes(TCPConnection.BUFFER_SIZE, True)
+                szContent = base64.b64encode(byteData)
+                await g_aio_logger.info(szContent)
                 await self.__stream.write(byteData)
 
         except Exception as ex:
