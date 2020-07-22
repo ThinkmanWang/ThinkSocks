@@ -183,6 +183,11 @@ class TCPConnection(object):
         self.m_byteATYP = data[3]
         # await g_aio_logger.info("%d|%d|%d|%d" % (int(data[0]), int(data[1]), int(data[2]), int(data[1])))
 
+        if 1 != self.m_byteCmd:
+            await g_aio_logger.info("Only support TCP")
+            self.on_close()
+            return
+
         self.m_nAddressType = address_type
         if 1 == address_type:  # IPv4
             byteData = await self.__stream.read_bytes(4)
