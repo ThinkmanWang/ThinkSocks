@@ -213,6 +213,11 @@ class TCPConnection(object):
             byteData = await self.__stream.read_bytes(2)
             await self.on_destination_port(byteData)
 
+        else:
+            await g_aio_logger.info("Unknow address type!!!")
+            self.on_close()
+            return
+
 
     async def on_destination_port(self, data):
         # await g_aio_logger.info("%s" % (base64.encodestring(data).replace("\n", "").replace("\\n", "")))
