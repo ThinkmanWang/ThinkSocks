@@ -12,6 +12,7 @@ from tornado import gen
 
 from pythinkutils.aio.common.aiolog import g_aio_logger
 from ThinkSocks.ThinkSocks import ThinkSocks
+from pythinkutils.common.log import g_logger
 
 def main():
     server = ThinkSocks()
@@ -19,6 +20,7 @@ def main():
     # server.bind(8530)
     # server.start(0)  # Forks multiple sub-processes
 
+    g_logger.info("Server Started!!!")
     tornado.ioloop.IOLoop.instance().start()
 
 if __name__ == '__main__':

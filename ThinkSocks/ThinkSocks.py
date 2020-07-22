@@ -16,6 +16,7 @@ from tornado import gen
 
 from pythinkutils.aio.common.aiolog import g_aio_logger
 from pythinkutils.common.BinaryStream import BinaryStream
+from pythinkutils.common.log import g_logger
 
 class TCPConnection(object):
     SOCKS_VERSION = 0x05
@@ -85,6 +86,8 @@ class TCPConnection(object):
                 and self.__upstream.closed() is False:
             self.__upstream.close()
             self.__upstream = None
+
+        g_logger.info("TCP Closed")
 
     async def on_start(self):
         try:
@@ -178,7 +181,7 @@ class TCPConnection(object):
         self.m_byteCmd = data[1]
         self.m_byteRsv = data[2]
         self.m_byteATYP = data[3]
-        await g_aio_logger.info("%d|%d|%d|%d" % (int(data[0]), int(data[1]), int(data[2]), int(data[1])))
+        # await g_aio_logger.info("%d|%d|%d|%d" % (int(data[0]), int(data[1]), int(data[2]), int(data[1])))
 
         self.m_nAddressType = address_type
         if 1 == address_type:  # IPv4
@@ -233,7 +236,7 @@ class TCPConnection(object):
                 await self.__upstream.write(byteData)
 
         except Exception as ex:
-            await g_aio_logger.error(ex)
+            # await g_aio_logger.error(ex)
             self.on_close()
 
     async def response(self):
@@ -246,7 +249,7 @@ class TCPConnection(object):
                 await self.__stream.write(byteData)
 
         except Exception as ex:
-            await g_aio_logger.error(ex)
+            # await g_aio_logger.error(ex)
             self.on_close()
 
     async def do_command(self):
@@ -270,5 +273,5 @@ class ThinkSocks(TCPServer):
     ENCODING = "utf-8"
 
     async def handle_stream(self, stream, address):
-        await g_aio_logger.info("Connected...")
+        await g_aio_logger.info("TCP Connected...")
         TCPConnection(stream, address)
