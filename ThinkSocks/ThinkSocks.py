@@ -14,11 +14,13 @@ from tornado.tcpclient import TCPClient
 from tornado.iostream import StreamClosedError
 from tornado import gen
 
-from pythinkutils.aio.common.aiolog import g_aio_logger
 from pythinkutils.common.BinaryStream import BinaryStream
+
 from pythinkutils.common.log import g_logger
+from pythinkutils.aio.common.aiolog import g_aio_logger
 
 class TCPConnection(object):
+
     SOCKS_VERSION = 0x05
     METHOD_NO_AUTH = 0x00
     METHOD_AUTH_BY_USERNAME_PASSWORD = 0x02
@@ -288,5 +290,5 @@ class ThinkSocks(TCPServer):
     ENCODING = "utf-8"
 
     async def handle_stream(self, stream, address):
-        await g_aio_logger.info("TCP Connected...")
+        # await g_aio_logger.info("TCP Connected...")
         TCPConnection(stream, address)
