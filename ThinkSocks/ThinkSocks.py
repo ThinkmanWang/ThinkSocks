@@ -56,7 +56,8 @@ class TCPConnection(object):
     def __init__(self, stream, address):
         self.__stream = stream
         self.__upstream = None
-        self.__address = address
+        self.m_szClientAddress = address[0]
+        self.m_nClientPort = address[1]
 
         self.m_byteVer = b"\x05"
         self.m_byteNMethod = b"\x01"
