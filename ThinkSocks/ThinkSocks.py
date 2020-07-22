@@ -259,7 +259,6 @@ class TCPConnection(object):
         asyncio.ensure_future(self.response())
 
     def _convert_readable_address(self, addr):
-        # return ""
         return socket.inet_ntop(socket.AF_INET if self.m_nAddressType == 0x01
                                 else socket.AF_INET6, addr)
 
