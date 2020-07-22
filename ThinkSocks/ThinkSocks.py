@@ -22,6 +22,7 @@ class TCPConnection(object):
     METHOD_NO_AUTH = 0x00
     METHOD_AUTH_BY_USERNAME_PASSWORD = 0x02
     NO_ACCEPTABLE_METHODS = 0xFF
+    BUFFER_SIZE = 8192
 
     COMMAND_MAP = {
         0x01: 'CONNECT',
@@ -80,6 +81,11 @@ class TCPConnection(object):
             self.__stream.close()
             self.__stream = None
 
+        if self.__upstream is not None \
+                and self.__upstream.closed() is False:
+            self.__upstream.close()
+            self.__upstream = None
+
     async def on_start(self):
         try:
             '''
@@ -101,14 +107,17 @@ class TCPConnection(object):
             nVer, nMethods = struct.unpack("!BB", byteData)
 
             if TCPConnection.SOCKS_VERSION != nVer:
+                self.on_close()
                 return
 
             if nMethods <= 0:
+                self.on_close()
                 return
 
             byteData = await self.__stream.read_bytes(nMethods)
             if b"\x02" not in byteData:
                 await self.__stream.write(struct.pack("!BB", TCPConnection.SOCKS_VERSION, TCPConnection.NO_ACCEPTABLE_METHODS))
+                self.on_close()
                 return
 
             self.__stream.write(struct.pack("!BB", TCPConnection.SOCKS_VERSION, TCPConnection.METHOD_AUTH_BY_USERNAME_PASSWORD))
@@ -127,6 +136,7 @@ class TCPConnection(object):
             if bValid is False:
                 response = struct.pack("!BB", 1, 0xFF)
                 self.__stream.write(response)
+                self.on_close()
                 return
 
             response = struct.pack("!BB", 1, 0)
@@ -135,9 +145,9 @@ class TCPConnection(object):
             byteData = await self.__stream.read_bytes(4)
             await self.on_s5_command(byteData)
 
-
         except Exception as ex:
             await g_aio_logger.error(ex)
+            self.on_close()
 
     '''
     +----+-----+-------+------+----------+----------+
@@ -219,11 +229,12 @@ class TCPConnection(object):
                     and self.__stream.closed() is False \
                     and self.__upstream is not None \
                     and self.__upstream.closed() is False:
-                byteData = await self.__stream.read_bytes(8192, True)
+                byteData = await self.__stream.read_bytes(TCPConnection.BUFFER_SIZE, True)
                 await self.__upstream.write(byteData)
 
         except Exception as ex:
             await g_aio_logger.error(ex)
+            self.on_close()
 
     async def response(self):
         try:
@@ -232,11 +243,12 @@ class TCPConnection(object):
                     and self.__upstream is not None \
                     and self.__upstream.closed() is False:
 
-                byteData = await self.__upstream.read_bytes(8192, True)
+                byteData = await self.__upstream.read_bytes(TCPConnection.BUFFER_SIZE, True)
                 await self.__stream.write(byteData)
 
         except Exception as ex:
             await g_aio_logger.error(ex)
+            self.on_close()
 
     async def do_command(self):
         self.__upstream = await TCPClient().connect(self.m_szAddress, self.m_nPort)
