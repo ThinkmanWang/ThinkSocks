@@ -187,11 +187,6 @@ class TCPConnection(object):
         self.m_byteATYP = data[3]
         # await g_aio_logger.info("%d|%d|%d|%d" % (int(data[0]), int(data[1]), int(data[2]), int(data[1])))
 
-        if 1 != self.m_byteCmd:
-            await g_aio_logger.info("Only support TCP")
-            self.on_close()
-            return
-
         self.m_nAddressType = address_type
         if 1 == address_type:  # IPv4
             byteData = await self.__stream.read_bytes(4)
@@ -220,12 +215,32 @@ class TCPConnection(object):
             self.on_close()
             return
 
+    async def on_cmd_not_support(self):
+        bs = BinaryStream()
+        bs.writeBytes(self.m_byteVer)
+        bs.writeBytes(b"\x07")
+        bs.writeBytes(b"\x00")
+        bs.writeBytes(bytes([self.m_byteATYP]))
+
+        if self.m_byteAddressLen[0] > 0:
+            bs.writeBytes(self.m_byteAddressLen)
+
+        bs.writeBytes(self.m_byteAddress)
+        bs.writeBytes(self.m_byteDstPort)
+
+        byteReply = bs.base_stream.getvalue()
+        await self.__stream.write(byteReply)
 
     async def on_destination_port(self, data):
         # await g_aio_logger.info("%s" % (base64.encodestring(data).replace("\n", "").replace("\\n", "")))
 
         self.m_nPort, = struct.unpack("!H", data)
         self.m_byteDstPort = data
+
+        if 1 != self.m_byteCmd:
+            await g_aio_logger.info("Only support TCP")
+            await self.on_cmd_not_support()
+            return
 
         # reply = struct.pack("!BBBBIH", TCPConnection.SOCKS_VERSION, 0, 0, address_type, addr, port)
         bs = BinaryStream()
