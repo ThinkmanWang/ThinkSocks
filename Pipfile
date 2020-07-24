@@ -21,6 +21,7 @@ selenium = "*"
 aiokafka = "*"
 requests = "*"
 pysocks = "*"
+aiohttp = "*"
 
 [dev-packages]
 
