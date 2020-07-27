@@ -17,6 +17,8 @@ async def main():
         resp = await session.post("https://distributeconsole.jiegames.com/api/getDataDetail", data=dictData)
         print(await resp.text())
 
+
+
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
