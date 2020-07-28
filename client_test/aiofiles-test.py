@@ -8,5 +8,11 @@ async def main():
         async for szLine in f:
             print(szLine)
 
+    print("==================")
+
+    async with aiofiles.open("/Users/wangxiaofeng/Github-Thinkman/ThinkSocks/README.md", mode="r") as f:
+        contents = await f.read()
+        print(contents)
+
 if __name__ == '__main__':
     asyncio.run(main())
