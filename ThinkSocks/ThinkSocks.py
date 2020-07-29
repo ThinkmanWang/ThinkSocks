@@ -18,6 +18,7 @@ from pythinkutils.common.BinaryStream import BinaryStream
 
 from pythinkutils.common.log import g_logger
 from pythinkutils.aio.common.aiolog import g_aio_logger
+from pythinkutils.aio.redis.ThinkAioRedisPool import ThinkAioRedisPool
 
 class TCPConnection(object):
 
@@ -296,10 +297,11 @@ class TCPConnection(object):
                                 else socket.AF_INET6, addr)
 
     async def user_pwd_valid(self):
-        if "Ab123145" == self.m_szPassword:
-            return True
-        else:
-            return False
+        with await (await ThinkAioRedisPool.get_conn_pool_ex()) as conn:
+            bytePassword = await conn.execute('HGET', 'map_thinksocks_pwd', self.m_szUsername)
+            szPassword = bytePassword.decode()
+
+            return szPassword == self.m_szPassword
 
 class ThinkSocks(TCPServer):
     ENCODING = "utf-8"
