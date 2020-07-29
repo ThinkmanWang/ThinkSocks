@@ -299,7 +299,7 @@ class TCPConnection(object):
     async def user_pwd_valid(self):
         with await (await ThinkAioRedisPool.get_conn_pool_ex()) as conn:
             szPassword = await conn.execute('HGET', 'map_thinksocks_pwd', self.m_szUsername)
-            szPassword = szPassword.decode("utf-8")
+            szPassword = szPassword.decode(ThinkSocks.ENCODING)
 
             return szPassword == self.m_szPassword
 
