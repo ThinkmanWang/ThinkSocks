@@ -17,8 +17,8 @@ class AioRedisLock(object):
         return "lock:" + szName
 
     @classmethod
-    async def acquire(cls, conn=None, lockname='', acquire_timeout=10):
-        szVal = await cls.acquire_with_timeout(conn, lockname, acquire_timeout)
+    async def acquire(cls, conn=None, lockname=''):
+        szVal = await cls.acquire_with_timeout(conn, lockname, 10, 60)
         return szVal
 
     @classmethod
@@ -26,16 +26,25 @@ class AioRedisLock(object):
         if conn is None:
             return None
 
-        szID = await cls.acquire(conn, lockname, acquire_timeout)
-        if is_empty_string(szID):
+        szUuid = str(uuid.uuid4())
+
+        nRet = 0
+        for i in range(acquire_timeout):
+            nRet = await conn.execute("SETNX", cls.mk_key(lockname), szUuid)
+            if nRet < 1:
+                await asyncio.sleep(1)
+            else:
+                break
+
+        if nRet < 1:
             return None
 
         try:
-            conn.execute("EXPIRE", cls.mk_key(lockname), lock_timeout)
+            await conn.execute("EXPIRE", cls.mk_key(lockname), lock_timeout)
         except Exception as e:
             pass
 
-        return szID
+        return szUuid
 
     @classmethod
     async def release(cls, conn=None, lockname='', identifier=''):
@@ -62,12 +71,12 @@ class AioRedisLock(object):
 
 
 # async def main():
-#     from aiothinkutils.redis.ThinkAioRedisPool import ThinkAioRedisPool
-#     with await (await ThinkAioRedisPool.get_default_conn_pool()) as conn:
-#         szVal = await AioRedisLock.acquire_with_timeout(conn, "lock_test", 10)
+#     from pythinkutils.aio.redis.ThinkAioRedisPool import ThinkAioRedisPool
+#     with await (await ThinkAioRedisPool.get_conn_pool_ex()) as conn:
+#         szVal = await AioRedisLock.acquire_with_timeout(conn, "lock_test")
 #         print(szVal)
 #
-#         szVal1 = await AioRedisLock.acquire_with_timeout(conn, "lock_test", 10)
+#         szVal1 = await AioRedisLock.acquire_with_timeout(conn, "lock_test")
 #         print(szVal1)
 #
 #         await asyncio.sleep(5)
